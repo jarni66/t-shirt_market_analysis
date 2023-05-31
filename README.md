@@ -9,7 +9,7 @@ But why t-shirt? here's why :
 So i think this project is worth of time to do before starting your t-shirt business :wink:. 
 
 ## Built with
-- [![Python][Python.img]][Next-url]
+- [![Python][Python.img]][Next-url]]
 
 
 
