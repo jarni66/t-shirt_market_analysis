@@ -8,18 +8,60 @@ But why t-shirt? here's why :
 
 So i think this project is worth of time to do before starting your t-shirt business :wink:. 
 
+# Goals and Objective
+  * Goal
+    - Get insight of t-shirt market in tokopedia ecommerce.
+  * Objective
+    - Scrape data of t-shirt in tokopedia ecommerce.
+    - Cleaning and analyze data.
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#goals-and-objective">Goals and Objective</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <ul>
+          <li><a href="#scraping">Scraping</a></li>
+          <li><a href="#demonstration">Demonstration</a></li>
+        </ul>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#analysis">Analysis</a></li>
+
+  </ol>
+</details>
+
+# Getting Started
+To run this project you will need Visual Studio Code to run web scraping script and Jupyter notebook to run data exploratory.
 ## Built with
 - [![Python][Python.com]][Python-url]
 - [![VScode][VScode.com]][VScode-url]
 - [![Jupyter][Jupyter.com]][Jupyter-url]
 - [![Selenium][Selenium.com]][Selenium-url]
+<!-- - [![pandas][pandas.com]][pandas-url] -->
+- <a href="https://pandas.pydata.org/">
+    <img src="https://img.shields.io/badge/pandas-000000?style=for-the-badge&logo=pandas&logoColor=white" alt="Logo" >
+  </a>
 - [![BS][BS.com]][BS-url]
-- [![pandas][pandas.com]][pandas-url]
-- [![matplotlib][matplotlib.com]][matplotlib-url]
-- [![seaborn][seaborn.com]][seaborn-url]
 
-## Getting Started
-To run this project you will need Visual Studio Code to run web scraping script and Jupyter notebook to run data exploratory.
+<!-- - [![matplotlib][matplotlib.com]][matplotlib-url] -->
+- <a href="https://matplotlib.org/stable/index.html">
+    <img src="https://img.shields.io/badge/matplotlib-000000?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Logo" >
+  </a>
+<!-- - [![seaborn][seaborn.com]][seaborn-url] -->
+- <a href="https://seaborn.pydata.org/index.html">
+    <img src="https://img.shields.io/badge/seaborn-000000?style=for-the-badge&logo=seaborn&logoColor=white" alt="Logo" >
+  </a>
 ## Prerequisites
 These are some library you need to run the project, i put the pip installation to make it easy for you.
 
@@ -81,6 +123,8 @@ Picture above is bottom of the previous picture
 Picture above is on the page 2
 
 
+# Analysis
+
 
 [Python.com]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
@@ -93,8 +137,8 @@ Picture above is on the page 2
 [BS.com]: https://img.shields.io/badge/Beautifulsoup-000000?style=for-the-badge&logo=&logoColor=white
 [BS-url]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 [pandas.com]: https://pandas.pydata.org/
-[pandas-url]: https://img.shields.io/badge/pandas-000000?style=for-the-badge&logo=pandas&logoColor=white
-[matplotlib.com]: https://matplotlib.org/stable/index.html#
+[pandas-url]: https://img.shields.io/badge/pandas-000000?style=for-the-badge&logo=&logoColor=white
+[matplotlib.com]: https://matplotlib.org/stable/index.html
 [matplotlib-url]: https://img.shields.io/badge/matplotlib-000000?style=for-the-badge&logo=matplotlib&logoColor=white
 [seaborn.com]: https://seaborn.pydata.org/index.html
 [seaborn-url]: https://img.shields.io/badge/seaborn-000000?style=for-the-badge&logo=seaborn&logoColor=white
