@@ -10,7 +10,7 @@ So i think this project is worth of time to do before starting your t-shirt busi
 
 # Goals and Objective
   * Goal
-    - Provide price range and expected product sold of t-shir.
+    - Provide price range and expected product sold of t-shirt.
   * Objective
     - Scrape data of t-shirt in tokopedia ecommerce.
     - Cleaning and analyze data.
@@ -157,9 +157,9 @@ We combine the rating segment with number of sold and there is unique distributi
 <img src="picture/image11.png" alt="Logo" width="1000" height="auto">
 
 Although there are another factor that can affect number of sold, rating, and price we can gather some use full insight from chart above.
-- T-shirt product are focused in rating 4.6 to 5.0 and 3.5  to 4.5.
+- T-shirt product are focused in rating <b>4.6 to 5.0 and 3.5  to 4.5.</b>
 - Product with price more than 100,000 tend to have number of sold under 500
-- T-shirt market value are in range 30837.5 - 59000.0
+- T-shirt market value are in range<b> 30837.5 - 59000.0</b>
 
 
 
