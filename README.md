@@ -10,10 +10,11 @@ So i think this project is worth of time to do before starting your t-shirt busi
 
 # Goals and Objective
   * Goal
-    - Get insight of t-shirt market in tokopedia ecommerce.
+    - Provide price range and expected product sold of t-shir.
   * Objective
     - Scrape data of t-shirt in tokopedia ecommerce.
     - Cleaning and analyze data.
+    - Generate insight.
 
 <details>
   <summary>Table of Contents</summary>
@@ -124,6 +125,49 @@ Picture above is on the page 2
 
 
 # Analysis
+Scraped data loaded in jupyter notebook in form of pkl and convert to dataframe. This is screen shot of raw data :
+
+<img src="picture/image4.png" alt="Logo" width="1000" height="auto">
+
+Data is processed into more clean form. This in shot of cleaned data. 
+
+<img src="picture/image5.png" alt="Logo" width="1000" height="auto">
+
+In categorical features there is no significant insight we can get. Majority t-shirt online shop were from Jabodetabek, Bandung and Surabaya. The most shop with t-shirt product are have 200 product and most of them aroung 50 product.
+
+<img src="picture/image6.png" alt="Logo" width="1000" height="auto">
+
+
+On numerical features there is some focused distrbution in number of sold, price and rating of the shop.
+
+<img src="picture/image8.png" alt="Logo" width="1000" height="auto">
+
+We try to scope down out observation in rating 3.5 above. And lets see for each rating in products sold.
+
+<img src="picture/image7.png" alt="Logo" width="1000" height="auto">
+
+<img src="picture/image9.png" alt="Logo" width="1000" height="auto">
+
+From this kind of chart we try to segment rating above 4.5 and under 4.5. There is some difference in this segment which higher rating can having possibilityto have higher price.
+
+<img src="picture/image10.png" alt="Logo" width="1000" height="auto">
+
+We combine the rating segment with number of sold and there is unique distribution for price and number of sold with significant rating segment.
+
+<img src="picture/image11.png" alt="Logo" width="1000" height="auto">
+
+Although there are another factor that can affect number of sold, rating, and price we can gather some use full insight from chart above.
+- T-shirt product are focused in rating 4.6 to 5.0 and 3.5  to 4.5.
+- Product with price more than 100,000 tend to have number of sold under 500
+- T-shirt market value are in range 30837.5 - 59000.0
+
+
+
+
+
+
+
+
 
 
 [Python.com]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white
